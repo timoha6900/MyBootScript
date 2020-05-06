@@ -1,0 +1,8 @@
+cc_binary {
+	name: "myscript",
+
+	init_rc: ["myscript.rc"],
+
+	srcs: ["main.cpp"],
+	shared_libs: ["liblog"],
+}

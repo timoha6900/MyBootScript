@@ -1,0 +1,5 @@
+service myscript /system/bin/myscript
+	oneshot
+
+on boot 
+	exec_start myscript

@@ -1,0 +1,3 @@
+# label the bluetooth@1.0-service.sim or it won't register during system boot
+/vendor/bin/hw/android\.hardware\.bluetooth@1\.0-service\.sim  u:object_r:hal_bluetooth_default_exec:s0
+/system/bin/myscript		u:object_r:myscript_exec:s0
